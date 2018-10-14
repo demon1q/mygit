@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="Transaction" className="tmall.transaction.impl.TransactionImpl"></bean>
+	<bean id="CategoryDAO" className="tmall.dao.impl.CategoryDAOImpl"></bean>
+	<bean id="OrderDAO" className="tmall.dao.impl.OrderDAOImpl"></bean>
+	<bean id="OrderItemDAO" className="tmall.dao.impl.OrderItemDAOImpl"></bean>
+	<bean id="ProductDAO" className="tmall.dao.impl.ProductDAOImpl"></bean>
+	<bean id="ProductImageDAO" className="tmall.dao.impl.ProductImageDAOImpl"></bean>
+	<bean id="ReviewDAO" className="tmall.dao.impl.ReviewDAOImpl"></bean>
+	<bean id="UserDAO" className="tmall.dao.impl.UserDAOImpl"></bean>
+</beans>
